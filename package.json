@@ -1,0 +1,29 @@
+{
+  "name": "tapdeck-desktop",
+  "version": "1.0.0",
+  "description": "TapDeck desktop companion for managing decks and profiles",
+  "author": "TapDeck",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"npm run electron-dev\" \"npm run next-dev\"",
+    "electron-dev": "ELECTRON_RUN_AS_NODE= electronmon electron/main.js",
+    "next-dev": "cd renderer && next dev --hostname 127.0.0.1 --port 3000",
+    "next-build": "cd renderer && next build",
+    "build": "npm run next-build && electron-builder"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "qrcode": "^1.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.89.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "electron": "^31.0.0",
+    "electron-builder": "^24.0.0",
+    "electronmon": "^2.0.0"
+  }
+}

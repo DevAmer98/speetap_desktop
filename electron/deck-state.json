@@ -1,0 +1,128 @@
+{
+  "activeProfileId": "profile-1",
+  "activeProfileName": "Profile 1",
+  "profiles": [
+    {
+      "id": "profile-1",
+      "name": "Profile 1",
+      "slots": [
+        {
+          "label": "Slot 1",
+          "name": "TMS Preview",
+          "path": "/Users/ameralyasin/Documents/TMS Preview.mov",
+          "icon": "T"
+        },
+        {
+          "label": "Slot 2",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 3",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 4",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 5",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 6",
+          "name": null,
+          "path": null,
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "profile-1766948527598-497c",
+      "name": "Profile 2",
+      "slots": [
+        {
+          "label": "Slot 1",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 2",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 3",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 4",
+          "name": null,
+          "path": null,
+          "icon": null
+        },
+        {
+          "label": "Slot 5",
+          "name": "Amer insurance ",
+          "path": "/Users/ameralyasin/Documents/Amer insurance .pdf",
+          "icon": "A"
+        },
+        {
+          "label": "Slot 6",
+          "name": null,
+          "path": null,
+          "icon": null
+        }
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "label": "Slot 1",
+      "name": "TMS Preview",
+      "path": "/Users/ameralyasin/Documents/TMS Preview.mov",
+      "icon": "T"
+    },
+    {
+      "label": "Slot 2",
+      "name": null,
+      "path": null,
+      "icon": null
+    },
+    {
+      "label": "Slot 3",
+      "name": null,
+      "path": null,
+      "icon": null
+    },
+    {
+      "label": "Slot 4",
+      "name": null,
+      "path": null,
+      "icon": null
+    },
+    {
+      "label": "Slot 5",
+      "name": null,
+      "path": null,
+      "icon": null
+    },
+    {
+      "label": "Slot 6",
+      "name": null,
+      "path": null,
+      "icon": null
+    }
+  ]
+}

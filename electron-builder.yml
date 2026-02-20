@@ -1,0 +1,22 @@
+appId: com.tapdeck.desktop
+productName: TapDeck
+directories:
+  output: dist
+  buildResources: electron
+files:
+  - package.json
+  - electron/**
+  - renderer/.next/**
+  - renderer/public/**
+  - node_modules/**
+asar: true
+win:
+  target:
+    - nsis
+  artifactName: TapDeck-${version}-Setup.${ext}
+  publisherName: TapDeck
+nsis:
+  oneClick: true
+  perMachine: false
+  allowToChangeInstallationDirectory: false
+  artifactName: TapDeck-${version}-Setup.${ext}

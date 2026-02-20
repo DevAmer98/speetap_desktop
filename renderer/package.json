@@ -1,0 +1,6 @@
+{
+  "name": "tapdeck-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renderer-side Next.js app for TapDeck Desktop"
+}
